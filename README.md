@@ -20,27 +20,35 @@
 </p>
 
 ## Ejecutar en desarrollo
+
 1. Clonar el repositorio
 2. Ejecutar
 
 ```bash
 $ npm install
 ```
+
 ## Instalar el CLI de NEST
+
 3. Tener el CLI de Nest instalado
 
 ```bash
 $ npm i -g @nestjs/cli
 ```
+
 ## Levantar la Base de Datos
 
 ```bash
 $ docker-compose up -d
 ```
 
+## Reconstruir la Base de Datos
 
+```bash
+$ http://localhost:3000/api/v2/seed
+```
 
 ##Stack Usado
 
-* MondoDB
-* Nest
+- MondoDB
+- Nest
